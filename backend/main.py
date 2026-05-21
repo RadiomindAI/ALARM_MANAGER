@@ -19,6 +19,7 @@ import pandas as pd
 from datetime import datetime
 
 from core.ingestion import process_excel
+from core.audit import log_feedback
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -174,6 +175,11 @@ def wizard_init(payload: WizardPayload):
     # Invalida cache classifier
     from core.classifier import reload_kb
     reload_kb()
+    
+    log_feedback(
+        event_type="wizard_completed",
+        rules_count=len(payload.rules)
+    )
 
     return {"status": "ok", "rules_saved": len(payload.rules)}
 
@@ -213,6 +219,13 @@ def update_operator_rule(payload: UpdateRulePayload):
 
     from core.classifier import reload_kb
     reload_kb()
+    
+    log_feedback(
+        event_type="new_alarm_classified" if payload.new_alarm_entry else "alarm_reclassified",
+        alarm_code_name=payload.alarm_code_name,
+        operator_action=payload.operator_action,
+        note=payload.note or ''
+    )
 
     return {"status": "ok", "alarm": payload.alarm_code_name, "action": payload.operator_action}
 
@@ -354,9 +367,12 @@ async def upload_alarms(file: UploadFile = File(...)):
     try:
         results = process_excel(file_path)
         return {"status": "success", "data": results}
+    except ValueError as ve:
+        logger.warning("Validazione fallita: %s", ve)
+        raise HTTPException(status_code=400, detail=str(ve))
     except Exception as e:
         logger.error("Errore elaborazione file: %s", e, exc_info=True)
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail="Errore interno durante l'elaborazione del file.")
 
 # ── Servire Frontend React (Deploy) ──────────────────────────────────────────
 FRONTEND_DIST = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend", "dist")

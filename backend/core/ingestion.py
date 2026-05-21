@@ -207,9 +207,19 @@ def _update_kb_incremental(new_rows: pd.DataFrame, full_df: pd.DataFrame):
 #  Entry point principale
 # ─────────────────────────────────────────────────────────────────────────────
 
+REQUIRED_COLUMNS = ['ME', 'ME IP', 'Alarm Code Name', 'Alarm Severity', 'Occurrence Time']
+
+def validate_excel_structure(df: pd.DataFrame) -> bool:
+    missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
+    if missing:
+        raise ValueError(f"File malformato. Colonne mancanti: {missing}")
+    return True
+
 def process_excel(file_path: str) -> dict:
     # 1. Leggi Excel
     df = pd.read_excel(file_path, engine='openpyxl')
+    
+    validate_excel_structure(df)
 
     # 2. Filtro ME che iniziano con "X"
     if 'ME' in df.columns:
