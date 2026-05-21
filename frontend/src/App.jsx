@@ -1,4 +1,4 @@
-import React, { useState, useRef, useMemo, useEffect, useCallback } from 'react';
+import { useState, useRef, useMemo, useEffect } from 'react';
 import axios from 'axios';
 import {
   UploadCloud, Activity, AlertTriangle, CheckCircle, Clock,
@@ -85,7 +85,7 @@ function App() {
     try {
       const res = await axios.get(`${API}/api/kb/stats`);
       setKbStats(res.data);
-    } catch {}
+    } catch (e) { console.error("Error loading stats", e); }
   };
 
   useEffect(() => { if (appState === 'kb') loadKbStats(); }, [appState]);
@@ -189,17 +189,7 @@ function App() {
 
   const clearCompare = () => { setSelectedSiteA(null); setCompareMode(false); };
 
-  const fetchNeHistory = async (meName) => {
-    setNeHistoryModal(meName);
-    setNeHistoryData(null);
-    try {
-      const res = await axios.get(`${API}/api/history/ne/${encodeURIComponent(meName)}`);
-      setNeHistoryData(res.data);
-    } catch (e) {
-      alert("Errore fetch history: " + e.message);
-      setNeHistoryModal(null);
-    }
-  };
+  // removed fetchNeHistory since unused
 
   // ─────────────────────────────────────────────────────────────────────────────
   //  RENDER
@@ -911,12 +901,9 @@ function DetailModal({ alarm, onClose }) {
 }
 
 function KpiModal({ category, results, onClose, onAction }) {
-  let alarms = [];
-  if (category === 'CHRONIC') {
-    alarms = results.alarms.filter(a => a.Is_Chronic);
-  } else {
-    alarms = results.alarms.filter(a => a.Action === category);
-  }
+  const alarms = category === 'CHRONIC'
+    ? results.alarms.filter(a => a.Is_Chronic)
+    : results.alarms.filter(a => a.Action === category);
 
   return (
     <div className="modal-overlay" onClick={onClose}>
