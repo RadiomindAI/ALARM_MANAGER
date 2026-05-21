@@ -7,6 +7,8 @@ Nuovi endpoint: first-launch, operator-kb, kb/stats
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional
 import os
@@ -355,3 +357,16 @@ async def upload_alarms(file: UploadFile = File(...)):
     except Exception as e:
         logger.error("Errore elaborazione file: %s", e, exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
+
+# ── Servire Frontend React (Deploy) ──────────────────────────────────────────
+FRONTEND_DIST = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend", "dist")
+
+if os.path.isdir(FRONTEND_DIST):
+    app.mount("/assets", StaticFiles(directory=os.path.join(FRONTEND_DIST, "assets")), name="assets")
+    
+    @app.get("/{full_path:path}")
+    async def serve_frontend(full_path: str):
+        path = os.path.join(FRONTEND_DIST, full_path)
+        if os.path.isfile(path):
+            return FileResponse(path)
+        return FileResponse(os.path.join(FRONTEND_DIST, "index.html"))
