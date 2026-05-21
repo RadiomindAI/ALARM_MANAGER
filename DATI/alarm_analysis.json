@@ -1,0 +1,1681 @@
+{
+  "top_alarms": [
+    {
+      "alarm_code_name": "Layer 2 protocols of an interface are in down status.",
+      "total_occurrences": 306821,
+      "main_severity": "Warning",
+      "affected_ne_count": 153,
+      "filterability_score": 0.977,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The physical port is Down.",
+      "total_occurrences": 306741,
+      "main_severity": "Warning",
+      "affected_ne_count": 157,
+      "filterability_score": 0.975,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The actual received level is lower than the given lower threshold",
+      "total_occurrences": 109932,
+      "main_severity": "Minor",
+      "affected_ne_count": 273,
+      "filterability_score": 0.989,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Xpi value is below threshold",
+      "total_occurrences": 98829,
+      "main_severity": "Warning",
+      "affected_ne_count": 171,
+      "filterability_score": 0.971,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "PTP reference clock source unavailable",
+      "total_occurrences": 16974,
+      "main_severity": "Minor",
+      "affected_ne_count": 36,
+      "filterability_score": 0.884,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "PTP clock link abnormal",
+      "total_occurrences": 16972,
+      "main_severity": "Minor",
+      "affected_ne_count": 36,
+      "filterability_score": 0.878,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "CSF",
+      "total_occurrences": 11693,
+      "main_severity": "Critical",
+      "affected_ne_count": 4,
+      "filterability_score": 0.764,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "IPv4 protocol state of the interface is down.",
+      "total_occurrences": 11193,
+      "main_severity": "Warning",
+      "affected_ne_count": 47,
+      "filterability_score": 0.884,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "E1-AIS",
+      "total_occurrences": 10457,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.72,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Input optical power (dBm) exceeds the threshold.",
+      "total_occurrences": 7501,
+      "main_severity": "Warning",
+      "affected_ne_count": 15,
+      "filterability_score": 0.815,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The actual received level is higher than the given upper threshold",
+      "total_occurrences": 6693,
+      "main_severity": "Minor",
+      "affected_ne_count": 11,
+      "filterability_score": 0.802,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "E1-Code-Violation",
+      "total_occurrences": 5755,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.585,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The port is not receiving Ethernet packets",
+      "total_occurrences": 5251,
+      "main_severity": "Warning",
+      "affected_ne_count": 91,
+      "filterability_score": 0.886,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Transmission unit link break",
+      "total_occurrences": 5121,
+      "main_severity": "Critical",
+      "affected_ne_count": 183,
+      "filterability_score": 0.918,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit Tx RF PLL unlocked",
+      "total_occurrences": 4614,
+      "main_severity": "Critical",
+      "affected_ne_count": 2,
+      "filterability_score": 0.64,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Traffic unit failure  caused by the RF unit alarm in 1+0 scene",
+      "total_occurrences": 4071,
+      "main_severity": "Critical",
+      "affected_ne_count": 9,
+      "filterability_score": 0.758,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "PLA member port abnormal alarm",
+      "total_occurrences": 3065,
+      "main_severity": "Minor",
+      "affected_ne_count": 102,
+      "filterability_score": 0.867,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Modem part unlock",
+      "total_occurrences": 2360,
+      "main_severity": "Critical",
+      "affected_ne_count": 131,
+      "filterability_score": 0.876,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "RDI alarm",
+      "total_occurrences": 2273,
+      "main_severity": "Critical",
+      "affected_ne_count": 114,
+      "filterability_score": 0.863,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The temperature exceeds the threshold.",
+      "total_occurrences": 1711,
+      "main_severity": "Minor",
+      "affected_ne_count": 14,
+      "filterability_score": 0.754,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "ODU Alarm - RX RF input signal is too low",
+      "total_occurrences": 1531,
+      "main_severity": "Minor",
+      "affected_ne_count": 64,
+      "filterability_score": 0.832,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Clock PLL can not lock",
+      "total_occurrences": 1449,
+      "main_severity": "Critical",
+      "affected_ne_count": 48,
+      "filterability_score": 0.808,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "XPIC function becomes invalid",
+      "total_occurrences": 1435,
+      "main_severity": "Critical",
+      "affected_ne_count": 110,
+      "filterability_score": 0.836,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Clock quality deteriorated",
+      "total_occurrences": 1380,
+      "main_severity": "Major",
+      "affected_ne_count": 35,
+      "filterability_score": 0.77,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Time synchronization is out of lock",
+      "total_occurrences": 1130,
+      "main_severity": "Warning",
+      "affected_ne_count": 165,
+      "filterability_score": 0.848,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Clock reference source lost",
+      "total_occurrences": 1112,
+      "main_severity": "Minor",
+      "affected_ne_count": 45,
+      "filterability_score": 0.773,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "UAS alarm of radio",
+      "total_occurrences": 852,
+      "main_severity": "Critical",
+      "affected_ne_count": 118,
+      "filterability_score": 0.821,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Signals on an optical port are lost.",
+      "total_occurrences": 515,
+      "main_severity": "Warning",
+      "affected_ne_count": 59,
+      "filterability_score": 0.781,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The link between the server and the NE is broken",
+      "total_occurrences": 493,
+      "main_severity": "Critical",
+      "affected_ne_count": 223,
+      "filterability_score": 0.836,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "MW_BER_SD",
+      "total_occurrences": 322,
+      "main_severity": "Minor",
+      "affected_ne_count": 39,
+      "filterability_score": 0.747,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Slave members of pla are interrupted",
+      "total_occurrences": 261,
+      "main_severity": "Warning",
+      "affected_ne_count": 18,
+      "filterability_score": 0.701,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit communication is interrupted",
+      "total_occurrences": 228,
+      "main_severity": "Critical",
+      "affected_ne_count": 23,
+      "filterability_score": 0.716,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The active number of pla slave members are inconsistent",
+      "total_occurrences": 224,
+      "main_severity": "Warning",
+      "affected_ne_count": 5,
+      "filterability_score": 0.636,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "MW_BER_EXC",
+      "total_occurrences": 211,
+      "main_severity": "Major",
+      "affected_ne_count": 33,
+      "filterability_score": 0.709,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The NTP server is unreachable.",
+      "total_occurrences": 187,
+      "main_severity": "Warning",
+      "affected_ne_count": 61,
+      "filterability_score": 0.747,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The OSPF neighbor is down.",
+      "total_occurrences": 184,
+      "main_severity": "Minor",
+      "affected_ne_count": 49,
+      "filterability_score": 0.729,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Clocks on the NTP client and server are not synchronized.",
+      "total_occurrences": 184,
+      "main_severity": "Warning",
+      "affected_ne_count": 61,
+      "filterability_score": 0.738,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "RF unit hard reset alarm.",
+      "total_occurrences": 181,
+      "main_severity": "Critical",
+      "affected_ne_count": 18,
+      "filterability_score": 0.661,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Port realtime speed is not match with default speed",
+      "total_occurrences": 170,
+      "main_severity": "Warning",
+      "affected_ne_count": 67,
+      "filterability_score": 0.733,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "PTP clock service setup failure",
+      "total_occurrences": 118,
+      "main_severity": "Minor",
+      "affected_ne_count": 46,
+      "filterability_score": 0.697,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "CPU usage is beyond the threshold.",
+      "total_occurrences": 98,
+      "main_severity": "Minor",
+      "affected_ne_count": 22,
+      "filterability_score": 0.661,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit is rebooting",
+      "total_occurrences": 69,
+      "main_severity": "Critical",
+      "affected_ne_count": 10,
+      "filterability_score": 0.617,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU Alarm - RF unit is mute, or the Tx power is 3dB lower than target value",
+      "total_occurrences": 65,
+      "main_severity": "Critical",
+      "affected_ne_count": 19,
+      "filterability_score": 0.64,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit power supply abnormal",
+      "total_occurrences": 60,
+      "main_severity": "Major",
+      "affected_ne_count": 5,
+      "filterability_score": 0.573,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The main power supply abnormal",
+      "total_occurrences": 42,
+      "main_severity": "Major",
+      "affected_ne_count": 10,
+      "filterability_score": 0.6,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "TX input level low or input signal absence alarm",
+      "total_occurrences": 40,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.509,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Environment temperature beyond threshold",
+      "total_occurrences": 34,
+      "main_severity": "Minor",
+      "affected_ne_count": 1,
+      "filterability_score": 0.379,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The outdoor cabinet access control module is abnormal.",
+      "total_occurrences": 34,
+      "main_severity": "Major",
+      "affected_ne_count": 10,
+      "filterability_score": 0.583,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit PA is disabled",
+      "total_occurrences": 34,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.379,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "PTP Sync Packet Correction Field abnormal",
+      "total_occurrences": 29,
+      "main_severity": "Minor",
+      "affected_ne_count": 21,
+      "filterability_score": 0.606,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "PTP RESP Packet Correction Field abnormal",
+      "total_occurrences": 27,
+      "main_severity": "Minor",
+      "affected_ne_count": 19,
+      "filterability_score": 0.591,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU Alarm - RF mute",
+      "total_occurrences": 27,
+      "main_severity": "Critical",
+      "affected_ne_count": 5,
+      "filterability_score": 0.53,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Input voltage is out of the configured range",
+      "total_occurrences": 17,
+      "main_severity": "Major",
+      "affected_ne_count": 6,
+      "filterability_score": 0.535,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ATPC configuration mismatch of radio link",
+      "total_occurrences": 16,
+      "main_severity": "Minor",
+      "affected_ne_count": 6,
+      "filterability_score": 0.53,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ACM configuration mismatch of radio link",
+      "total_occurrences": 15,
+      "main_severity": "Minor",
+      "affected_ne_count": 8,
+      "filterability_score": 0.529,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "E1-ALOS",
+      "total_occurrences": 15,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.454,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit Rx RF PLL unlocked",
+      "total_occurrences": 11,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.437,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU Alarm - RF Loopback alarm",
+      "total_occurrences": 11,
+      "main_severity": "Critical",
+      "affected_ne_count": 4,
+      "filterability_score": 0.47,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU Alarm - RF inner loopback",
+      "total_occurrences": 11,
+      "main_severity": "Major",
+      "affected_ne_count": 4,
+      "filterability_score": 0.47,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Scan frequency enabled alarm",
+      "total_occurrences": 11,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.437,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Board offline",
+      "total_occurrences": 10,
+      "main_severity": "Major",
+      "affected_ne_count": 4,
+      "filterability_score": 0.452,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "RF unit soft reset alarm.",
+      "total_occurrences": 10,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.42,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Dry contact warning",
+      "total_occurrences": 9,
+      "main_severity": "Warning",
+      "affected_ne_count": 5,
+      "filterability_score": 0.459,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Fade margin value is below threshold",
+      "total_occurrences": 9,
+      "main_severity": "Major",
+      "affected_ne_count": 3,
+      "filterability_score": 0.406,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Alarm Indication Signal (AIS)",
+      "total_occurrences": 9,
+      "main_severity": "Major",
+      "affected_ne_count": 2,
+      "filterability_score": 0.36,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Fiber Break",
+      "total_occurrences": 8,
+      "main_severity": "Critical",
+      "affected_ne_count": 4,
+      "filterability_score": 0.424,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The status of a PW for the L2 VPN service alarms.",
+      "total_occurrences": 8,
+      "main_severity": "Warning",
+      "affected_ne_count": 2,
+      "filterability_score": 0.346,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ODU IF Loopback alarm",
+      "total_occurrences": 7,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.265,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The number of the received CRC error packets exceeds the threshold.",
+      "total_occurrences": 6,
+      "main_severity": "Warning",
+      "affected_ne_count": 6,
+      "filterability_score": 0.43,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "ADDA loopback",
+      "total_occurrences": 6,
+      "main_severity": "Major",
+      "affected_ne_count": 1,
+      "filterability_score": 0.245,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The current frequency of radio link are mismatch",
+      "total_occurrences": 6,
+      "main_severity": "Critical",
+      "affected_ne_count": 4,
+      "filterability_score": 0.395,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Enhanced Remote Defect Indication- Server Defect (ERDI-S)",
+      "total_occurrences": 6,
+      "main_severity": "Minor",
+      "affected_ne_count": 2,
+      "filterability_score": 0.317,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Remote Defect Indication (RDI)",
+      "total_occurrences": 6,
+      "main_severity": "Minor",
+      "affected_ne_count": 1,
+      "filterability_score": 0.245,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Loopback state in TDM port",
+      "total_occurrences": 6,
+      "main_severity": "Critical",
+      "affected_ne_count": 2,
+      "filterability_score": 0.317,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "BOOT does not take effect",
+      "total_occurrences": 5,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.337,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "IF or modem port IF loopback",
+      "total_occurrences": 5,
+      "main_severity": "Major",
+      "affected_ne_count": 2,
+      "filterability_score": 0.291,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The frequency deviation of the reference source is abnormal",
+      "total_occurrences": 5,
+      "main_severity": "Warning",
+      "affected_ne_count": 1,
+      "filterability_score": 0.219,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Disconnected from the outdoor cabinet",
+      "total_occurrences": 4,
+      "main_severity": "Minor",
+      "affected_ne_count": 2,
+      "filterability_score": 0.277,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "An optical module is not installed.",
+      "total_occurrences": 4,
+      "main_severity": "Warning",
+      "affected_ne_count": 4,
+      "filterability_score": 0.355,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Ethernet port in inner loopback state",
+      "total_occurrences": 3,
+      "main_severity": "Major",
+      "affected_ne_count": 3,
+      "filterability_score": 0.303,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The mains supply is cut off and there is no standby AC input",
+      "total_occurrences": 3,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.303,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Path Label Mismatch (PLM)",
+      "total_occurrences": 3,
+      "main_severity": "Major",
+      "affected_ne_count": 2,
+      "filterability_score": 0.257,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The source IP address and source MAC address of a packet conflict with those of the local interface.",
+      "total_occurrences": 3,
+      "main_severity": "Warning",
+      "affected_ne_count": 1,
+      "filterability_score": 0.185,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The MAC address of the neighboring rack conflicts with that of the local rack.",
+      "total_occurrences": 3,
+      "main_severity": "Warning",
+      "affected_ne_count": 1,
+      "filterability_score": 0.185,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The running BOOT version is inconsistent with the COMMIT firmware version",
+      "total_occurrences": 2,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.139,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Voltage abnormal on the board",
+      "total_occurrences": 2,
+      "main_severity": "Major",
+      "affected_ne_count": 1,
+      "filterability_score": 0.139,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Battery temperature senser failure",
+      "total_occurrences": 2,
+      "main_severity": "Minor",
+      "affected_ne_count": 1,
+      "filterability_score": 0.139,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "RF unit power is turned off",
+      "total_occurrences": 2,
+      "main_severity": "Major",
+      "affected_ne_count": 2,
+      "filterability_score": 0.211,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "XPIC frequencies different alarm",
+      "total_occurrences": 2,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.139,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The bias current (mA) of the laser exceeds the threshold.",
+      "total_occurrences": 2,
+      "main_severity": "Warning",
+      "affected_ne_count": 2,
+      "filterability_score": 0.211,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Output optical power (dBm) exceeds the threshold.",
+      "total_occurrences": 2,
+      "main_severity": "Warning",
+      "affected_ne_count": 2,
+      "filterability_score": 0.211,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Excessive Bit Error Ratio (EXC)",
+      "total_occurrences": 2,
+      "main_severity": "Major",
+      "affected_ne_count": 2,
+      "filterability_score": 0.211,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Frequency is inconsistent with configuration",
+      "total_occurrences": 2,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.139,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Battery discharge",
+      "total_occurrences": 2,
+      "main_severity": "Minor",
+      "affected_ne_count": 2,
+      "filterability_score": 0.211,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The physical port is in oscillating suppression status.",
+      "total_occurrences": 2,
+      "main_severity": "Minor",
+      "affected_ne_count": 2,
+      "filterability_score": 0.211,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The communication between the rectifier and monitoring unit is abnormal",
+      "total_occurrences": 1,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.079,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "Power supply was abnormal",
+      "total_occurrences": 1,
+      "main_severity": "Minor",
+      "affected_ne_count": 1,
+      "filterability_score": 0.079,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The lightning protection module of the outdoor monitoring device\nis abnormal.",
+      "total_occurrences": 1,
+      "main_severity": "Minor",
+      "affected_ne_count": 1,
+      "filterability_score": 0.079,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The DC output voltage is lower than threshold",
+      "total_occurrences": 1,
+      "main_severity": "Minor",
+      "affected_ne_count": 1,
+      "filterability_score": 0.079,
+      "filterable_candidate": false
+    },
+    {
+      "alarm_code_name": "The bandwidth in XPIC group are different",
+      "total_occurrences": 1,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.079,
+      "filterable_candidate": false
+    }
+  ],
+  "filterable_candidates": [
+    {
+      "alarm_code_name": "Layer 2 protocols of an interface are in down status.",
+      "total_occurrences": 306821,
+      "main_severity": "Warning",
+      "affected_ne_count": 153,
+      "filterability_score": 0.977,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The physical port is Down.",
+      "total_occurrences": 306741,
+      "main_severity": "Warning",
+      "affected_ne_count": 157,
+      "filterability_score": 0.975,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The actual received level is lower than the given lower threshold",
+      "total_occurrences": 109932,
+      "main_severity": "Minor",
+      "affected_ne_count": 273,
+      "filterability_score": 0.989,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Xpi value is below threshold",
+      "total_occurrences": 98829,
+      "main_severity": "Warning",
+      "affected_ne_count": 171,
+      "filterability_score": 0.971,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "PTP reference clock source unavailable",
+      "total_occurrences": 16974,
+      "main_severity": "Minor",
+      "affected_ne_count": 36,
+      "filterability_score": 0.884,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "PTP clock link abnormal",
+      "total_occurrences": 16972,
+      "main_severity": "Minor",
+      "affected_ne_count": 36,
+      "filterability_score": 0.878,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "CSF",
+      "total_occurrences": 11693,
+      "main_severity": "Critical",
+      "affected_ne_count": 4,
+      "filterability_score": 0.764,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "IPv4 protocol state of the interface is down.",
+      "total_occurrences": 11193,
+      "main_severity": "Warning",
+      "affected_ne_count": 47,
+      "filterability_score": 0.884,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "E1-AIS",
+      "total_occurrences": 10457,
+      "main_severity": "Critical",
+      "affected_ne_count": 3,
+      "filterability_score": 0.72,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Input optical power (dBm) exceeds the threshold.",
+      "total_occurrences": 7501,
+      "main_severity": "Warning",
+      "affected_ne_count": 15,
+      "filterability_score": 0.815,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The actual received level is higher than the given upper threshold",
+      "total_occurrences": 6693,
+      "main_severity": "Minor",
+      "affected_ne_count": 11,
+      "filterability_score": 0.802,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "E1-Code-Violation",
+      "total_occurrences": 5755,
+      "main_severity": "Critical",
+      "affected_ne_count": 1,
+      "filterability_score": 0.585,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The port is not receiving Ethernet packets",
+      "total_occurrences": 5251,
+      "main_severity": "Warning",
+      "affected_ne_count": 91,
+      "filterability_score": 0.886,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Transmission unit link break",
+      "total_occurrences": 5121,
+      "main_severity": "Critical",
+      "affected_ne_count": 183,
+      "filterability_score": 0.918,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit Tx RF PLL unlocked",
+      "total_occurrences": 4614,
+      "main_severity": "Critical",
+      "affected_ne_count": 2,
+      "filterability_score": 0.64,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Traffic unit failure  caused by the RF unit alarm in 1+0 scene",
+      "total_occurrences": 4071,
+      "main_severity": "Critical",
+      "affected_ne_count": 9,
+      "filterability_score": 0.758,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "PLA member port abnormal alarm",
+      "total_occurrences": 3065,
+      "main_severity": "Minor",
+      "affected_ne_count": 102,
+      "filterability_score": 0.867,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Modem part unlock",
+      "total_occurrences": 2360,
+      "main_severity": "Critical",
+      "affected_ne_count": 131,
+      "filterability_score": 0.876,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "RDI alarm",
+      "total_occurrences": 2273,
+      "main_severity": "Critical",
+      "affected_ne_count": 114,
+      "filterability_score": 0.863,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The temperature exceeds the threshold.",
+      "total_occurrences": 1711,
+      "main_severity": "Minor",
+      "affected_ne_count": 14,
+      "filterability_score": 0.754,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "ODU Alarm - RX RF input signal is too low",
+      "total_occurrences": 1531,
+      "main_severity": "Minor",
+      "affected_ne_count": 64,
+      "filterability_score": 0.832,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Clock PLL can not lock",
+      "total_occurrences": 1449,
+      "main_severity": "Critical",
+      "affected_ne_count": 48,
+      "filterability_score": 0.808,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "XPIC function becomes invalid",
+      "total_occurrences": 1435,
+      "main_severity": "Critical",
+      "affected_ne_count": 110,
+      "filterability_score": 0.836,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Clock quality deteriorated",
+      "total_occurrences": 1380,
+      "main_severity": "Major",
+      "affected_ne_count": 35,
+      "filterability_score": 0.77,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Time synchronization is out of lock",
+      "total_occurrences": 1130,
+      "main_severity": "Warning",
+      "affected_ne_count": 165,
+      "filterability_score": 0.848,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Clock reference source lost",
+      "total_occurrences": 1112,
+      "main_severity": "Minor",
+      "affected_ne_count": 45,
+      "filterability_score": 0.773,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "UAS alarm of radio",
+      "total_occurrences": 852,
+      "main_severity": "Critical",
+      "affected_ne_count": 118,
+      "filterability_score": 0.821,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Signals on an optical port are lost.",
+      "total_occurrences": 515,
+      "main_severity": "Warning",
+      "affected_ne_count": 59,
+      "filterability_score": 0.781,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The link between the server and the NE is broken",
+      "total_occurrences": 493,
+      "main_severity": "Critical",
+      "affected_ne_count": 223,
+      "filterability_score": 0.836,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "MW_BER_SD",
+      "total_occurrences": 322,
+      "main_severity": "Minor",
+      "affected_ne_count": 39,
+      "filterability_score": 0.747,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Slave members of pla are interrupted",
+      "total_occurrences": 261,
+      "main_severity": "Warning",
+      "affected_ne_count": 18,
+      "filterability_score": 0.701,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit communication is interrupted",
+      "total_occurrences": 228,
+      "main_severity": "Critical",
+      "affected_ne_count": 23,
+      "filterability_score": 0.716,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "MW_BER_EXC",
+      "total_occurrences": 211,
+      "main_severity": "Major",
+      "affected_ne_count": 33,
+      "filterability_score": 0.709,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The NTP server is unreachable.",
+      "total_occurrences": 187,
+      "main_severity": "Warning",
+      "affected_ne_count": 61,
+      "filterability_score": 0.747,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "The OSPF neighbor is down.",
+      "total_occurrences": 184,
+      "main_severity": "Minor",
+      "affected_ne_count": 49,
+      "filterability_score": 0.729,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Clocks on the NTP client and server are not synchronized.",
+      "total_occurrences": 184,
+      "main_severity": "Warning",
+      "affected_ne_count": 61,
+      "filterability_score": 0.738,
+      "filterable_candidate": true
+    },
+    {
+      "alarm_code_name": "Port realtime speed is not match with default speed",
+      "total_occurrences": 170,
+      "main_severity": "Warning",
+      "affected_ne_count": 67,
+      "filterability_score": 0.733,
+      "filterable_candidate": true
+    }
+  ],
+  "total_unique_alarm_types": 105,
+  "total_history_events": 951066,
+  "threshold_occurrences": 852,
+  "severity_distribution": {
+    "Warning": 739049,
+    "Minor": 158860,
+    "Critical": 51325,
+    "Major": 1832
+  },
+  "me_level_distribution": {
+    "Access Layer": 950565
+  },
+  "resource_type_distribution": {
+    "Ethernet Physical (ETPI)": 608602,
+    "Phy Air Port": 229904,
+    "E1 Port": 27920,
+    "Vlan Interface": 21846,
+    "Board": 21230,
+    "PTP Port Index": 17028,
+    "TrafficUnit": 12257,
+    "Rmon&QoS": 5251,
+    "sfp power": 2983,
+    "Critical Chips": 1711,
+    "SETS": 1112,
+    "ZXMW OMC": 493,
+    "NTP server": 187,
+    "OSPF": 184,
+    "NTP": 184,
+    "OutDoor cabinet device": 49,
+    "Hardware Alarm": 45,
+    "Smartgroup Interface": 14,
+    "VC4": 11,
+    "EDI In Port": 9
+  },
+  "daily_trend": [
+    {
+      "date": "2026-04-30",
+      "count": 1626
+    },
+    {
+      "date": "2026-05-01",
+      "count": 2064
+    },
+    {
+      "date": "2026-05-02",
+      "count": 2113
+    },
+    {
+      "date": "2026-05-03",
+      "count": 2441
+    },
+    {
+      "date": "2026-05-04",
+      "count": 3151
+    },
+    {
+      "date": "2026-05-05",
+      "count": 47938
+    },
+    {
+      "date": "2026-05-06",
+      "count": 53397
+    },
+    {
+      "date": "2026-05-07",
+      "count": 61172
+    },
+    {
+      "date": "2026-05-08",
+      "count": 54909
+    },
+    {
+      "date": "2026-05-09",
+      "count": 57384
+    },
+    {
+      "date": "2026-05-10",
+      "count": 56890
+    },
+    {
+      "date": "2026-05-11",
+      "count": 70242
+    },
+    {
+      "date": "2026-05-12",
+      "count": 72950
+    },
+    {
+      "date": "2026-05-13",
+      "count": 56961
+    },
+    {
+      "date": "2026-05-14",
+      "count": 59258
+    },
+    {
+      "date": "2026-05-15",
+      "count": 64088
+    },
+    {
+      "date": "2026-05-16",
+      "count": 66286
+    },
+    {
+      "date": "2026-05-17",
+      "count": 65302
+    },
+    {
+      "date": "2026-05-18",
+      "count": 63608
+    },
+    {
+      "date": "2026-05-19",
+      "count": 63075
+    },
+    {
+      "date": "2026-05-20",
+      "count": 26211
+    }
+  ],
+  "top_ne": [
+    {
+      "ne": "CSSTITCZ-PRZT-001#A.A.1.A2#ODU[T.B.1.A1](119.20.154.2)",
+      "alarm_count": 60311
+    },
+    {
+      "ne": "TOANITAB-PRZT-001#A.D.14.A4#ODU[T.B.1.A2](119.20.153.4)",
+      "alarm_count": 42311
+    },
+    {
+      "ne": "CUNEITDL-PRZT-001#A.A.01.A4#ODU[P.A.01.A1](18.3.6.194)",
+      "alarm_count": 33112
+    },
+    {
+      "ne": "FOGGITDW-PRZT-002#ODU[T.A.01.A3](104.1.154.34)",
+      "alarm_count": 19957
+    },
+    {
+      "ne": "LODIITGT-PRZT-001#A.A.01.A1#ODU[P.A.01.A1](20.248.3.34)",
+      "alarm_count": 19766
+    },
+    {
+      "ne": "SALDITAE-PRZT-001#A.C.15.A1#ODU[P.A.03.A1](20.248.3.52)",
+      "alarm_count": 19013
+    },
+    {
+      "ne": "AVIGITEX_E-BAND_H-PRZT-003#ODU[P.A.03.A4](18.3.134.86)",
+      "alarm_count": 16567
+    },
+    {
+      "ne": "ORBAITAM_E-BAND_H-PRZT-003#ODU[T.B.03.A4](18.3.134.83)",
+      "alarm_count": 16542
+    },
+    {
+      "ne": "FOGGITAF-PRZT-002#ODU[T.Z.05.A3](104.1.154.33)",
+      "alarm_count": 16397
+    },
+    {
+      "ne": "FOTAITAR-PRZT-001#A.A.10.A2#ODU[T.A.10.A2](137.247.61.114)",
+      "alarm_count": 16040
+    },
+    {
+      "ne": "FOGGITAF-PRZT-001#ODU[T.Z.05.A1](104.1.154.17)",
+      "alarm_count": 15257
+    },
+    {
+      "ne": "FOGGITDW-PRZT-001#ODU[T.A.01.A1](104.1.154.18)",
+      "alarm_count": 15253
+    },
+    {
+      "ne": "VIASITBQ-PRZT-001#A.A.01.A3#ODU[P.A.01.A1](18.2.4.194)",
+      "alarm_count": 14732
+    },
+    {
+      "ne": "FOTAITAQ-PRZT-001#B.B.14.A3#ODU[T.FF.13.A2](137.247.61.76)",
+      "alarm_count": 12078
+    },
+    {
+      "ne": "DRUEITAA_E-BAND_V-PRZT-003#ODU[T.C.03.A2](88.5.144.194)",
+      "alarm_count": 11508
+    },
+    {
+      "ne": "SUSAITHF_E-BAND_H-PRZT-003#ODU[P.A.03.A4](18.3.134.3)",
+      "alarm_count": 11394
+    },
+    {
+      "ne": "SUSAITGE_E-BAND_H-PRZT-003#ODU[P.A.03.A4](18.3.134.6)",
+      "alarm_count": 11336
+    },
+    {
+      "ne": "SUSAITHF_E-BAND_V-PRZT-002#ODU[P.A.03.A2](18.3.134.2)",
+      "alarm_count": 11201
+    },
+    {
+      "ne": "ORBAITAM_E-BAND_V-PRZT-002#ODU[T.B.03.A2](18.3.134.82)",
+      "alarm_count": 11143
+    },
+    {
+      "ne": "SUSAITGE_E-BAND_V-PRZT-002#ODU[P.A.03.A2](18.3.134.5)",
+      "alarm_count": 11125
+    },
+    {
+      "ne": "CIRIITDG_E-BAND_V-PRZT-003#ODU[V.A.03.A2](80.248.239.5)",
+      "alarm_count": 11097
+    },
+    {
+      "ne": "DRUEITAA_E-BAND_H-PRZT-002#ODU[T.C.03.A4](88.5.144.195)",
+      "alarm_count": 11094
+    },
+    {
+      "ne": "RIVOITBF_E-BAND_H-PRZT-002#ODU[T.B.03.A4](88.5.144.198)",
+      "alarm_count": 11085
+    },
+    {
+      "ne": "CIRIITDG_E-BAND_H-PRZT-002#ODU[V.A.03.A4](80.248.239.6)",
+      "alarm_count": 11074
+    },
+    {
+      "ne": "CIRIITAH_E-BAND_H-PRZT-004#ODU[T.AA.01.A4](88.0.159.3)",
+      "alarm_count": 11071
+    },
+    {
+      "ne": "CATOITAA_E-BAND_H-PRZT-002#ODU[P.B.01.A4](80.248.239.3)",
+      "alarm_count": 11070
+    },
+    {
+      "ne": "CATOITAA_E-BAND_V-PRZT-003#ODU[P.B.01.A2](80.248.239.2)",
+      "alarm_count": 11058
+    },
+    {
+      "ne": "RIVOITBF_E-BAND_V-PRZT-003#ODU[T.B.03.A2](88.5.144.197)",
+      "alarm_count": 11053
+    },
+    {
+      "ne": "CIRIITBR_E-BAND_V-PRZT-002#ODU[T.B.03.A3](88.0.159.5)",
+      "alarm_count": 11051
+    },
+    {
+      "ne": "CIRIITBR_E-BAND_H-PRZT-003#ODU[T.B.03.A4](88.0.159.6)",
+      "alarm_count": 11047
+    }
+  ],
+  "active_total": 350,
+  "active_severity": {
+    "Warning": 164,
+    "Critical": 133,
+    "Minor": 47,
+    "Major": 6
+  },
+  "active_top_alarms": [
+    {
+      "alarm_code_name": "The physical port is Down.",
+      "count": 46
+    },
+    {
+      "alarm_code_name": "The link between the server and the NE is broken",
+      "count": 35
+    },
+    {
+      "alarm_code_name": "Signals on an optical port are lost.",
+      "count": 26
+    },
+    {
+      "alarm_code_name": "Time synchronization is out of lock",
+      "count": 19
+    },
+    {
+      "alarm_code_name": "Layer 2 protocols of an interface are in down status.",
+      "count": 15
+    },
+    {
+      "alarm_code_name": "CSF",
+      "count": 15
+    },
+    {
+      "alarm_code_name": "Clock PLL can not lock",
+      "count": 13
+    },
+    {
+      "alarm_code_name": "E1-AIS",
+      "count": 13
+    },
+    {
+      "alarm_code_name": "PLA member port abnormal alarm",
+      "count": 12
+    },
+    {
+      "alarm_code_name": "The actual received level is lower than the given lower threshold",
+      "count": 11
+    },
+    {
+      "alarm_code_name": "Input optical power (dBm) exceeds the threshold.",
+      "count": 10
+    },
+    {
+      "alarm_code_name": "UAS alarm of radio",
+      "count": 10
+    },
+    {
+      "alarm_code_name": "Modem part unlock",
+      "count": 10
+    },
+    {
+      "alarm_code_name": "Transmission unit link break",
+      "count": 10
+    },
+    {
+      "alarm_code_name": "The NTP server is unreachable.",
+      "count": 9
+    },
+    {
+      "alarm_code_name": "Clocks on the NTP client and server are not synchronized.",
+      "count": 7
+    },
+    {
+      "alarm_code_name": "Traffic unit failure  caused by the RF unit alarm in 1+0 scene",
+      "count": 7
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit communication is interrupted",
+      "count": 7
+    },
+    {
+      "alarm_code_name": "Xpi value is below threshold",
+      "count": 6
+    },
+    {
+      "alarm_code_name": "The OSPF neighbor is down.",
+      "count": 6
+    },
+    {
+      "alarm_code_name": "XPIC function becomes invalid",
+      "count": 6
+    },
+    {
+      "alarm_code_name": "IPv4 protocol state of the interface is down.",
+      "count": 4
+    },
+    {
+      "alarm_code_name": "CCM packets are not received from the peer MEP in the specified time.",
+      "count": 4
+    },
+    {
+      "alarm_code_name": "The local end does not receive CCM packets in the specified time.",
+      "count": 4
+    },
+    {
+      "alarm_code_name": "An optical module is not installed.",
+      "count": 3
+    },
+    {
+      "alarm_code_name": "ACM configuration mismatch of radio link",
+      "count": 2
+    },
+    {
+      "alarm_code_name": "ODU Alarm - RX RF input signal is too low",
+      "count": 2
+    },
+    {
+      "alarm_code_name": "Board offline",
+      "count": 2
+    },
+    {
+      "alarm_code_name": "Battery test fails.",
+      "count": 2
+    },
+    {
+      "alarm_code_name": "PTP reference clock source unavailable",
+      "count": 2
+    }
+  ],
+  "active_filterable": [
+    {
+      "alarm_code_name": "The physical port is Down.",
+      "count": 46,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "The link between the server and the NE is broken",
+      "count": 35,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Signals on an optical port are lost.",
+      "count": 26,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Time synchronization is out of lock",
+      "count": 19,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Layer 2 protocols of an interface are in down status.",
+      "count": 15,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "CSF",
+      "count": 15,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Clock PLL can not lock",
+      "count": 13,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "E1-AIS",
+      "count": 13,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "PLA member port abnormal alarm",
+      "count": 12,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "The actual received level is lower than the given lower threshold",
+      "count": 11,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Input optical power (dBm) exceeds the threshold.",
+      "count": 10,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "UAS alarm of radio",
+      "count": 10,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Modem part unlock",
+      "count": 10,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Transmission unit link break",
+      "count": 10,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "The NTP server is unreachable.",
+      "count": 9,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Clocks on the NTP client and server are not synchronized.",
+      "count": 7,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Traffic unit failure  caused by the RF unit alarm in 1+0 scene",
+      "count": 7,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "ODU Alarm - Rf unit communication is interrupted",
+      "count": 7,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "Xpi value is below threshold",
+      "count": 6,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "The OSPF neighbor is down.",
+      "count": 6,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "XPIC function becomes invalid",
+      "count": 6,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "IPv4 protocol state of the interface is down.",
+      "count": 4,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "ODU Alarm - RX RF input signal is too low",
+      "count": 2,
+      "is_filterable": true
+    },
+    {
+      "alarm_code_name": "PTP reference clock source unavailable",
+      "count": 2,
+      "is_filterable": true
+    }
+  ],
+  "active_top_ne": [
+    {
+      "ne": "IMOLITAE-PRZT-001#A.A.11.A2#ODU[T.A.11.A2](131.9.143.13)",
+      "alarm_count": 32
+    },
+    {
+      "ne": "FOTAITAQ-PRZT-001#B.B.14.A3#ODU[T.FF.13.A2](137.247.61.76)",
+      "alarm_count": 16
+    },
+    {
+      "ne": "FOTAITAR-PRZT-001#A.A.10.A2#ODU[T.A.10.A2](137.247.61.114)",
+      "alarm_count": 16
+    },
+    {
+      "ne": "COAMITAF-PRZT-001#A.A.11.A1#ODU[T.C.01.A1.7.8](18.11.7.2)",
+      "alarm_count": 16
+    },
+    {
+      "ne": "AVIGITEX_E-BAND_H-PRZT-003#ODU[P.A.03.A4](18.3.134.86)",
+      "alarm_count": 12
+    },
+    {
+      "ne": "XFELTITAZ-PRZT-001#A.A.01.A3#ODU[T.A.03.A1.07.08](18.11.134.228)",
+      "alarm_count": 11
+    },
+    {
+      "ne": "CHGUITAB-PRZT-001#A.B.07.A1#ODU[T.A.01.A1](18.29.5.210)",
+      "alarm_count": 10
+    },
+    {
+      "ne": "ORBAITAM_E-BAND_H-PRZT-003#ODU[T.B.03.A4](18.3.134.83)",
+      "alarm_count": 9
+    },
+    {
+      "ne": "COMIITBU-PRZT-001#A.A.01.A1#ODU[T.A.01.A1](18.29.133.210)",
+      "alarm_count": 9
+    },
+    {
+      "ne": "XFELTITAZ_E-BAND_V-PRZT-002#ODU[T.A.05.A1](18.11.134.229)",
+      "alarm_count": 8
+    },
+    {
+      "ne": "XVLDOITAB-PRZT-003#A.B.03.A3#ODU[T.A.05.A1.07.08](18.11.6.226)",
+      "alarm_count": 8
+    },
+    {
+      "ne": "SUSAITHT-PRZT-001#A.A.01.A1#ODU[P.A.01.A1](80.249.17.146)",
+      "alarm_count": 7
+    },
+    {
+      "ne": "XFELTITAZ_E-BAND_H-PRZT-003#ODU[T.A.05.A2](18.11.134.230)",
+      "alarm_count": 7
+    },
+    {
+      "ne": "TOANITAB-PRZT-001#A.D.14.A4#ODU[T.B.1.A2](119.20.153.4)",
+      "alarm_count": 6
+    },
+    {
+      "ne": "SUSAITAP-PRZT-001#B.A.02.A3#ODU[T.B.01.A1](80.249.0.220)",
+      "alarm_count": 6
+    },
+    {
+      "ne": "NOVAITFH-PRZT-003#A.B.02.A4#ODU[A.B.04.A4](86.5.146.3)",
+      "alarm_count": 5
+    },
+    {
+      "ne": "PATTITAN-PRZT-001#AB.010.A3#ODU[TA.01.A2.5.6.7.8](53.247.128.98)",
+      "alarm_count": 5
+    },
+    {
+      "ne": "VERCITFA-PRZT-002#A.A.01.A3#ODU[A.T.03.A3](86.5.146.4)",
+      "alarm_count": 5
+    },
+    {
+      "ne": "CSSTITCZ-PRZT-001#A.A.1.A2#ODU[T.B.1.A1](119.20.154.2)",
+      "alarm_count": 4
+    },
+    {
+      "ne": "BRAAITAD-PRZT-001#B.A.04.A1#ODU[T.A.05.A4](80.249.17.212)",
+      "alarm_count": 4
+    }
+  ],
+  "active_ack_distribution": {
+    "Unack": 350
+  },
+  "generated_at": "2026-05-20T14:59:29.147275"
+}

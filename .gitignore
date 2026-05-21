@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+__pycache__/
+*.pyc
+venv/
+backend/venv/
+backend/data/
+DATI/history_db.parquet
+.vscode/
+.idea/
+.DS_Store
