@@ -1,0 +1,27 @@
+# config/thresholds.yml
+# Soglie tecniche per l'applicazione MW Alarm Manager
+
+pm_radio:
+  rsl_fading_threshold_dbm: -63.0      # RSL sotto cui si diagnostica fading climatico
+  rsl_nominal_threshold_dbm: -60.0     # RSL nominale atteso
+  xpi_critical_threshold_db: 20.0      # XPI sotto cui si diagnostica disallineamento XPIC
+  xpi_warning_threshold_db: 25.0       # XPI di attenzione
+  mse_interference_threshold_db: -35.0 # MSE sotto cui si diagnostica interferenza esterna
+  delta_if_cable_threshold_dbm: 0.8    # Delta IF sopra cui si diagnostica anomalia cavo/connettori
+  downshift_warning_seconds: 0         # Cali di modulazione significativi in secondi
+
+kb:
+  filterability_threshold: 0.85        # Score minimo per classificare allarme come strutturale
+  chronic_days: 21                     # Giorni dopo i quali un allarme diventa "cronico"
+  wizard_max_alarms: 50                # Max allarmi presentati nel wizard iniziale
+
+pdm:
+  risk_weights:
+    duration: 0.50                     # Peso metrica m2 (persistenza temporale)
+    severity: 0.30                     # Peso metrica severità
+    frequency: 0.20                    # Peso metrica m3 (frequenza)
+  risk_thresholds:
+    critical: 0.75
+    high: 0.60
+    medium: 0.40
+  window_seconds: 900                  # Finestra temporale normalizzazione m2 (15 min)

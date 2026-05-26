@@ -10,3 +10,13 @@ DATI/history_db.parquet
 .vscode/
 .idea/
 .DS_Store
+
+# Large data and media files
+*.xlsx
+*.xls
+*.parquet
+*.png
+*.pptx
+*.csv
+backend/uploads/
+DATI/Performance Management-History 1 mese/

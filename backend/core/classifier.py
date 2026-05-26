@@ -14,6 +14,7 @@ import json
 import os
 import logging
 from datetime import datetime
+from filelock import FileLock
 from .solutions import get_solution
 
 logger = logging.getLogger(__name__)
@@ -41,17 +42,19 @@ def _load_alarm_kb() -> dict:
     global _alarm_kb_cache, _alarm_kb_mtime
     if not os.path.exists(ALARM_KB_PATH):
         return {}
-    mtime = os.path.getmtime(ALARM_KB_PATH)
-    if _alarm_kb_cache is None or mtime > _alarm_kb_mtime:
-        try:
-            with open(ALARM_KB_PATH, 'r', encoding='utf-8') as f:
-                _alarm_kb_cache = json.load(f)
-            _alarm_kb_mtime = mtime
-            logger.info("alarm_kb.json caricato: %d profili allarme",
-                        len(_alarm_kb_cache.get('alarm_profiles', {})))
-        except Exception as e:
-            logger.error("Errore caricamento alarm_kb.json: %s", e)
-            _alarm_kb_cache = {}
+    lock = FileLock(ALARM_KB_PATH + ".lock")
+    with lock:
+        mtime = os.path.getmtime(ALARM_KB_PATH)
+        if _alarm_kb_cache is None or mtime > _alarm_kb_mtime:
+            try:
+                with open(ALARM_KB_PATH, 'r', encoding='utf-8') as f:
+                    _alarm_kb_cache = json.load(f)
+                _alarm_kb_mtime = mtime
+                logger.info("alarm_kb.json caricato: %d profili allarme",
+                            len(_alarm_kb_cache.get('alarm_profiles', {})))
+            except Exception as e:
+                logger.error("Errore caricamento alarm_kb.json: %s", e)
+                _alarm_kb_cache = {}
     return _alarm_kb_cache
 
 
@@ -59,15 +62,17 @@ def _load_operator_kb() -> dict:
     global _operator_kb_cache, _operator_kb_mtime
     if not os.path.exists(OPERATOR_KB_PATH):
         return _default_operator_kb()
-    mtime = os.path.getmtime(OPERATOR_KB_PATH)
-    if _operator_kb_cache is None or mtime > _operator_kb_mtime:
-        try:
-            with open(OPERATOR_KB_PATH, 'r', encoding='utf-8') as f:
-                _operator_kb_cache = json.load(f)
-            _operator_kb_mtime = mtime
-        except Exception as e:
-            logger.error("Errore caricamento operator_kb.json: %s", e)
-            _operator_kb_cache = _default_operator_kb()
+    lock = FileLock(OPERATOR_KB_PATH + ".lock")
+    with lock:
+        mtime = os.path.getmtime(OPERATOR_KB_PATH)
+        if _operator_kb_cache is None or mtime > _operator_kb_mtime:
+            try:
+                with open(OPERATOR_KB_PATH, 'r', encoding='utf-8') as f:
+                    _operator_kb_cache = json.load(f)
+                _operator_kb_mtime = mtime
+            except Exception as e:
+                logger.error("Errore caricamento operator_kb.json: %s", e)
+                _operator_kb_cache = _default_operator_kb()
     return _operator_kb_cache
 
 
