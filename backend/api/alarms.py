@@ -21,6 +21,13 @@ def alarms_status():
     """
     return alarm_service.get_status()
 
+@router.get("/alarms/status")
+def alarms_status_specular():
+    """
+    Endpoint speculare per allineamento con le chiamate del frontend.
+    """
+    return alarms_status()
+
 @router.get("/history/ne/{me_name}")
 def get_ne_history(me_name: str):
     """
